@@ -1,6 +1,8 @@
 package BankApplication.Customer;
 
-public class Customer {
+import LibraryManagement.Users.User;
+
+public class Customer implements User {
     public int Customer_Id;
     public long AccountNo ;
     public String Name;
@@ -15,6 +17,7 @@ public class Customer {
         Password = password;
     }
 
+
     @Override
     public String toString() {
         return
@@ -23,5 +26,35 @@ public class Customer {
                 ", Name='" + Name + '\'' +
                 ", Balance=" + Balance +
                 ", Password='" + Password ;
+    }
+
+    @Override
+    public int getID() {
+        return Customer_Id;
+    }
+
+    @Override
+    public String getName() {
+        return Name;
+    }
+
+    @Override
+    public String getPassword() {
+        return Password;
+    }
+
+    @Override
+    public void setPassword(String Password) {
+        this.Password=Password;
+    }
+
+    @Override
+    public void setName(String name) {
+    this.Name=name;
+    }
+
+    @Override
+    public void setID(int ID) {
+        this.Customer_Id=ID;
     }
 }
