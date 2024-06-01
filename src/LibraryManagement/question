@@ -10,9 +10,9 @@ Project Requirements:
  —> Admin: Users with administrative privileges to add or remove sellers from the system.
 
 2. Book Management:
- —>Sellers should be able to upload PDF versions of books to the
+ —>Sellers should be able to add  books to the
  system.
- —> Buyers should be able to download purchased books in PDF format
+ —> Buyers should be able to  purchase  books
  Sellers should have the ability to manage their book inventory.
 
 3. Payment System:
