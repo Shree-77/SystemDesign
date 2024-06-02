@@ -16,6 +16,5 @@ public class Main {
         for(int i =0;i< Bank.list.size();i++){
             System.out.println(Bank.list.get(i).toString());
         }
-
     }
 }
